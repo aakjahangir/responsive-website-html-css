@@ -107,7 +107,7 @@
 
 .service-section{
     background-color:rgba(7, 47, 82, 0.874);
-    padding:80px 0px;
+    padding:50px 0px;
 }
 .service-parent{
     width:1100px;
@@ -120,6 +120,7 @@
     text-align:center;
     background-color:rgb(128, 128, 128);
     padding:50px 30px;
+    border-radius:10px;
 }
 .single-service i{
     font-size:40px;
@@ -132,6 +133,90 @@
 .single-service p{
     color:white;
 }
+
+/* smart section parts starts here  */
+
+.smart-section{
+    padding:30px 0px;
+    background-color:rgba(28, 82, 64, 0.804);
+}
+.smart-logo{
+    text-align:center;
+    padding:20px 0px;
+}
+.smart-parent{
+    width:1100px;
+    margin:0 auto;
+    display:flex;
+    gap:20px;
+}
+.smart-img img{
+    width:100%;
+}
+.smart-text h2{
+    margin:10px 0px;
+    font-size:25px;
+}
+.smart-btn{
+    padding:8px 20px;
+    margin-top:20px;
+    border-radius:5px;
+    border:none;
+    background-color:rgba(120, 6, 99, 0.829);
+}
+.smart-btn:hover{
+    background-color:rgba(120, 6, 99, 0.137);
+    color:white;
+}
+
+/* about section parts starts here  */
+.about-section{
+    background-color:rgba(28, 4, 83, 0.918);
+    padding:40px 0px;
+}
+.about-parent{
+    width:1100px;
+    margin:0 auto;
+    display:flex;
+    gap:20px;
+}
+.more-about-div{
+    color:white;
+}
+.more-about-div h2{
+    margin:10px 0px;
+}
+.more-about-div ul{
+    margin:10px 0px;
+}
+.more-about-div ul li{
+    list-style:circle;
+}
+.more-about-btn{
+    padding:5px 10px;
+    margin:15px 0px;
+}
+.classic-about-div{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+}
+.classic-single-div{
+    text-align:center;
+    box-shadow:3px 3px 8px grey;
+    padding:30px 10px;
+    background-color:rgba(245, 245, 245, 0.868);
+    border-radius:10px;
+}
+.classic-single-div h2{
+    margin:8px 0px;
+}
+
+
+
+
+
+
 
 
 /* media quary part starts here  */
@@ -147,8 +232,43 @@
     .single-service{
         border-radius:10px;
     }
+     
+    /* smart area media quary parts starts here  */
 
+
+    .smart-parent{
+        display:block;
+        width:95%;
+        margin:0 auto;
+        gap:10px;
+    }
+    .smart-text{
+        padding:10px 0px;
+    }
+
+    /* about parts media quary starts here  */
+
+    .about-parent{
+        display:block;
+        width:95%;
+        margin:0 auto;
+    }
+
+    .classic-about-div{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        width:95%;
+        margin:0 auto;
+    }
+    .more-about-div{
+        padding:10px 0px;
+    }
 }
+
+
+
+
+
 @media only screen and (min-width:669px) and (max-width:992px){
     .service-parent{
         display:grid;
@@ -159,4 +279,26 @@
     .single-service{
         border-radius:10px;
     }
+    /* smart area media quary parts starts here  */
+
+    
+    .smart-parent{
+        display:flex;
+        width:95%;
+        margin:0 auto;
+        
+    }
+
+    /* about parts media qurey starts here  */
+
+    
+    .about-parent{
+        display:block;
+        width:95%;
+        margin:0 auto;
+    }
+    .more-about-div{
+        padding:10px 0px;
+    }
+
 }
