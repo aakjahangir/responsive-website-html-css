@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+body{
+    font-family:montserrat;
+}  
