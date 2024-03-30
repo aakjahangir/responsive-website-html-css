@@ -21,6 +21,8 @@
     width:100%;
     background-color:rgb(10, 10, 48);
     padding:0px 50px 0px 80px;
+    position:fixed;
+    top:0;
   }
   .logo{
     font-size:25px;
@@ -54,9 +56,19 @@
     opacity: 0;
     padding:10px 0px;
   }
+   /* hero area parts starts here  */
+
+   .hero-area{
+    background-image:url(image/bk\ img.jpg);
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+   }
 
 
-  /* nav parts media parts starts here  */
+  /* nav parts media quary parts starts here  */
 @media only screen and (max-width:940px){
 
 .nav-bar{
@@ -90,3 +102,4 @@
 }
  
 }
+
